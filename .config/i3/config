@@ -195,7 +195,7 @@ bar {
         status_command SCRIPT_DIR=~/.config/i3blocks/scripts i3blocks
 }
 
-set $alt Mod1 
+set $alt Mod1
 #bindsym $mod+d exec rofi -show drun
 #bindsym $mod exec rofi -show drun
 bindsym $mod+z exec rofi -show drun
@@ -239,5 +239,5 @@ client.background       #ffffff
 #default_border pixel 3
 workspace_layout tabbed
 exec --no-startup-id fcitx5
-#exec_always --no-startup-id feh --bg-fill 
+#exec_always --no-startup-id feh --bg-fill
 pulseaudio --start &
