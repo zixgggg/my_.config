@@ -147,12 +147,9 @@ interval=5
 label=LOAD
 interval=10
 
-#[xbacklight]
-#command=xbacklight -get | xargs printf "🔆: %.0f%%\n"
-#interval=1
-[brightnessctl]
-command=$SCRIPT_DIR/brightness/i_make
-
+[xbacklight]
+command=xbacklight -get | xargs printf "🔆: %.0f%%\n"
+interval=1
 
 # Battery indicator
 #
@@ -164,8 +161,7 @@ command=$SCRIPT_DIR/brightness/i_make
 #interval=1
 
 [battery_acpi]
-label=🔋
-command=acpi
+command=apci
 interval=1
 
 [powerprofilesctl]
