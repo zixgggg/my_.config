@@ -147,9 +147,9 @@ interval=5
 label=LOAD
 interval=10
 
-[xbacklight]
-command=xbacklight -get | xargs printf "🔆: %.0f%%\n"
-interval=1
+[brightness]
+command=$SCRIPT_DIR/brightness/bin/brightness
+label=1
 
 # Battery indicator
 #
