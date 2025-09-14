@@ -238,6 +238,3 @@ client.background       #ffffff
 
 #default_border pixel 3
 workspace_layout tabbed
-exec --no-startup-id fcitx5
-#exec_always --no-startup-id feh --bg-fill
-pulseaudio --start &
